@@ -1,0 +1,98 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #2a9d8f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.7rem;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background: #264653;
+        }
+        nav ul li {
+            color: #fff;
+            padding: 14px 28px;
+            font-size: 1rem;
+        }
+        main.bars {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 32px 3%;
+            gap: 18px;
+        }
+        .bar {
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        .middle {
+            background: #f4a261;
+            width: 100%;
+            padding: 40px 0;
+            font-size: 1.1rem;
+        }
+        .bar-row {
+            display: flex;
+            width: 100%;
+            gap: 18px;
+        }
+        .left {
+            background: #e76f51;
+            flex: 1;
+            padding: 32px 0;
+            font-size: 1rem;
+        }
+        .right {
+            background: #2a9d8f;
+            flex: 1;
+            padding: 32px 0;
+            font-size: 1rem;
+        }
+        footer {
+            background: #264653;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 1rem;
+            margin-top: 32px;
+        }
+        @media (max-width: 900px) {
+            main.bars {
+                margin: 20px 1%;
+                gap: 12px;
+            }
+            .bar-row {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .middle {
+                padding: 28px 0;
+                font-size: 1rem;
+            }
+            .left, .right {
+                padding: 20px 0;
+                font-size: 0.95rem;
+            }
+            header {
+                font-size: 1.3rem;
+                padding: 14px 0;
+            }
+            nav ul li {
+                padding: 10px 18px;
+                font-size: 0.95rem;
+            }
+            footer {
+                padding: 12px 0;
+                font-size: 0.95rem;
+            }
+        }
